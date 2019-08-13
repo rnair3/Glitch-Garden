@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Attacker : MonoBehaviour
+public class Shooter : MonoBehaviour
 {
-    [Range(0f,5f)]
-    float currentSpeed=1f;
-
+    [SerializeField] GameObject bullet;
+    [SerializeField] GameObject gun;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,11 +15,11 @@ public class Attacker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.left * currentSpeed * Time.deltaTime);
+        
     }
 
-    public void SetMovementSpeed(float speed)
+    public void Shoot()
     {
-        currentSpeed = speed;
+        Instantiate(bullet, gun.transform.position, gun.transform.rotation);
     }
 }
