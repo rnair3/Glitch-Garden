@@ -314,17 +314,17 @@ PrefabInstance:
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.2973814
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.0298796
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.2657328
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
@@ -386,8 +386,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2401528a5bfb8764fb07e29e70a5ed88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnDelay: 1
-  maxSpawnDelay: 5
+  minSpawnDelay: 10
+  maxSpawnDelay: 10
   enemyPrefab: {fileID: 789424119111253016, guid: 61653342e6cc6ae4c9e2a802070ca698,
     type: 3}
 --- !u!4 &247524705 stripped
@@ -485,17 +485,17 @@ PrefabInstance:
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.2973814
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.0298796
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.2657328
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
@@ -557,8 +557,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2401528a5bfb8764fb07e29e70a5ed88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnDelay: 1
-  maxSpawnDelay: 5
+  minSpawnDelay: 10
+  maxSpawnDelay: 10
   enemyPrefab: {fileID: 789424119111253016, guid: 61653342e6cc6ae4c9e2a802070ca698,
     type: 3}
 --- !u!4 &463423265 stripped
@@ -786,17 +786,17 @@ PrefabInstance:
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.2973814
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0298796
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.2657328
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
@@ -858,8 +858,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2401528a5bfb8764fb07e29e70a5ed88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnDelay: 1
-  maxSpawnDelay: 5
+  minSpawnDelay: 10
+  maxSpawnDelay: 10
   enemyPrefab: {fileID: 789424119111253016, guid: 61653342e6cc6ae4c9e2a802070ca698,
     type: 3}
 --- !u!4 &792016472 stripped
@@ -1310,17 +1310,17 @@ PrefabInstance:
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.2973814
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.02987957
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.2657328
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
@@ -1382,8 +1382,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2401528a5bfb8764fb07e29e70a5ed88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnDelay: 1
-  maxSpawnDelay: 5
+  minSpawnDelay: 10
+  maxSpawnDelay: 10
   enemyPrefab: {fileID: 789424119111253016, guid: 61653342e6cc6ae4c9e2a802070ca698,
     type: 3}
 --- !u!4 &1078060577 stripped
@@ -2179,7 +2179,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2093512585}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.7026186, y: 2.4701204, z: -3.2657328}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 128564253554678175}
@@ -2205,32 +2205,32 @@ PrefabInstance:
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.2973814
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.97012043
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.2657328
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1899838977716600475, guid: 0d1414c74e49fe74f82d17a6bbfe3223,
         type: 3}
@@ -2277,8 +2277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2401528a5bfb8764fb07e29e70a5ed88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnDelay: 1
-  maxSpawnDelay: 5
+  minSpawnDelay: 10
+  maxSpawnDelay: 10
   enemyPrefab: {fileID: 789424119111253016, guid: 61653342e6cc6ae4c9e2a802070ca698,
     type: 3}
 --- !u!4 &128564253554678175 stripped
