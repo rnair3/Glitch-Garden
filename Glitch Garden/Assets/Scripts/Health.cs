@@ -36,7 +36,7 @@ public class Health : MonoBehaviour
         {
             return;
         }
-        GameObject deathVFXObject = Instantiate(deathVFX, transform.position, Quaternion.identity);
+        GameObject deathVFXObject = Instantiate(deathVFX, transform.position, transform.rotation);
         Destroy(deathVFXObject, 1f);
     }
 }
