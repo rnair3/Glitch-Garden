@@ -11,11 +11,25 @@ public class Shooter : MonoBehaviour
     AttackerSpawner myLaneSpawner;
     Animator animator;
 
+    GameObject projectileParent;
+    const string PROJECTILE_PARENT_NAME = "Projectiles";
+
     // Start is called before the first frame update
     void Start()
     {
         SetLaneSpawner();
         animator = GetComponent<Animator>();
+
+        CreateProjectileParent();
+    }
+
+    private void CreateProjectileParent()
+    {
+        projectileParent = GameObject.Find(PROJECTILE_PARENT_NAME);
+        if (!projectileParent)
+        {
+            projectileParent = new GameObject(PROJECTILE_PARENT_NAME);
+        }
     }
 
     private void SetLaneSpawner()
@@ -59,6 +73,7 @@ public class Shooter : MonoBehaviour
 
     public void Shoot()
     {
-        Instantiate(bullet, gun.transform.position, gun.transform.rotation);
+        GameObject proj = Instantiate(bullet, gun.transform.position, gun.transform.rotation) as GameObject;
+        proj.transform.parent = projectileParent.transform;
     }
 }

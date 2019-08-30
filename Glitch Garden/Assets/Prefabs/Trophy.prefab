@@ -238,7 +238,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -266,7 +266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e9849852390254699598dac39ed4d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 125
+  currentHealth: 50
   deathVFX: {fileID: 0}
 --- !u!1 &2149433697070988258
 GameObject:
